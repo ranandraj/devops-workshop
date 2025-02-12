@@ -39,6 +39,7 @@ Write-Host "File sharing, network discovery, and remote access have been enabled
 
 # Set the network profile to Private (recommended for file sharing and discovery)
 Set-NetConnectionProfile -InterfaceAlias "Ethernet" -NetworkCategory Private # Change "Wi-Fi" to "Ethernet" if using wired connection
+Set-NetConnectionProfile -InterfaceAlias "Wi-Fi" -NetworkCategory Private # Change "Wi-Fi" to "Ethernet" if using wired connection
 Write-Host "Network set to Private to allow file sharing and discovery."
 
 # Enable PowerShell Remoting (WinRM) to allow remote administration
