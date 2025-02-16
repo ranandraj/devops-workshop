@@ -2,8 +2,11 @@ Steps to install ansible in ubuntu
 ----------------------------------
 
 •	sudo apt update
+
 •	sudo apt install ansible -y
+
 •	ansible --version
+
 •	python3 --version
 
 
