@@ -6,6 +6,7 @@ Steps to install ansible in ubuntu
 •	ansible --version
 •	python3 --version
 
+
 Steps to create Ansible playbook for Nginx Install
 --------------------------------------------------
 
