@@ -1,11 +1,11 @@
-**Steps To Install Ansible in Ubuntu**
+Steps to install ansible in ubuntu
 
-sudo apt update
-sudo apt install ansible -y
-ansible --version
-python3 --version
+•	sudo apt update
+•	sudo apt install ansible -y
+•	ansible --version
+•	python3 --version
 
-**Steps to create Ansible playbook for Nginx Install**
+Steps to create Ansible playbook for Nginx Install
 
 1. Create a new directory to store playbook
 	mkdir deploy-nginx
